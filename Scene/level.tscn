@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqcqpun35x3hk"]
+
+[ext_resource type="Script" path="res://Scripts/Level/level.gd" id="1_co62p"]
+[ext_resource type="Texture2D" uid="uid://bif6u0krsael2" path="res://icon.svg" id="1_miaic"]
+
+[node name="Level" type="Node2D"]
+script = ExtResource("1_co62p")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Icon" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(153, 103)
+texture = ExtResource("1_miaic")
