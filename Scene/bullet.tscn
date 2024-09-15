@@ -7,6 +7,8 @@
 size = Vector2(7, 17)
 
 [node name="Bullet" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 2
 script = ExtResource("1_0v7c7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
